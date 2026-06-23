@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WarmCult - Stay Warm. Live Comfortably.</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+margin:0;
+background:#F8F4EE;
+color:#4A2C1A;
+}
+
+header{
+background:#4A2C1A;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.btn{
+background:#D97742;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:8px;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:white;
+width:280px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#4A2C1A;
+color:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>WarmCult</h1>
+<p>Stay Warm. Live Comfortably.</p>
+<a class="btn" href="#products">Shop Now</a>
+</header>
+
+<section id="products" class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/300x300">
+<h3>Heated Blanket</h3>
+<p>Perfect for cold winter nights.</p>
+<p><strong>R699</strong></p>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300x300">
+<h3>Heated Hoodie</h3>
+<p>Comfort and warmth everywhere.</p>
+<p><strong>R899</strong></p>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300x300">
+<h3>Winter Bundle</h3>
+<p>Blanket + Hoodie Combo.</p>
+<p><strong>R1399</strong></p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 WarmCult</p>
+<p>WhatsApp Orders: +27 XX XXX XXXX</p>
+</footer>
+
+</body>
+</html>
